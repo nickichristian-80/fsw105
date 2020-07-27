@@ -3,5 +3,5 @@ function capitalizeAndLowercase(str){
     return "HELLOhello " + upperAndLower;
 }
 
-console.log(capitalizeAndLowercase ("Hello"));
+console.log(capitalizeAndLowercase ("Hello"))
 
