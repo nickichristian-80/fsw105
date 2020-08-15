@@ -43,7 +43,7 @@ function oldEnoughName(){
             console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is of age to see Mad Max.")
         }
         else if(peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18){
-            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not of age to see Mad Max")
+            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is NOT of age to see Mad Max")
         }
     }
 }
@@ -65,7 +65,7 @@ function isOldEnoughWithName() {
             console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max." + " " + pronoun + " allowed into the movies.")
         }
         else if(peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18){
-            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is to young to see Mad Max." + " " + pronoun + " not allowed into the movies.")
+            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is to young to see Mad Max." + " " + pronoun + " NOT allowed into the movies.")
         };
     }
 }
