@@ -20,8 +20,8 @@ let playerCharacter = {
 };
 
 console.log(`Welcome to The Happy Forest, ${playerCharacter.name}.`)
-console.log("Here you will continue walking down the path fighting Happiness, and collecting Magestic Items.")
-console.log("Here are a list of commands you can use: 'w' to walk down the path, 'a' to fight any magic creature, 'r' to runaway from any magic creature, 'p' to view your hp and inventory, and 'q' to quit the game.")
+console.log("Here you will walk down the path fighting Happiness, and collecting Magestic Items.")
+console.log("Here are a list of commands you can use: 'w' to walk down the path, 'a' to fight any magic creatures, 'r' to runaway from magic creatures, 'p' to view your hp and inventory, and 'q' to quit the game.")
 
 //Creatures in game
 let creaturesInGame = [];
