@@ -50,7 +50,7 @@ class CreatureCreator {
 }
 ;
 
-//creating monsters and putting them in the game
+//creatures in game
 creaturesInGame.push(new CreatureCreator("Teddy Bear", 5, 1, 3));
 creaturesInGame.push(new CreatureCreator("Box of Puppies", 8, 1, 5));
 creaturesInGame.push(new CreatureCreator("Magestic Unicorn", 10, 1, 7)) 
